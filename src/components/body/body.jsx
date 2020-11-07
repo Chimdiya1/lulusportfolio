@@ -80,8 +80,8 @@ const Body = () => {
                     See more of my works
                 </h4>
                 <ul>
-                    <li><img src={behance} alt="linkedIn-link"/> Behance:{' '} <a href="/"> behance.net/luludesigna</a></li>
-                    <li><img src={dribble} alt="linkedIn-link"/> Behance:{' '} <a href="/"> behance.net/luludesigna</a></li>
+                    <li><img src={behance} alt="linkedIn-link"/> Behance:{' '} <a href="https://www.behance.net/luludesigna"> behance.net/luludesigna</a></li>
+                    <li><img src={dribble} alt="linkedIn-link"/> Dribble:{' '} <a href="https://www.dribbble.com/luludesigna"> dribbble.com/luludesigna</a></li>
                 </ul>
             </div>
             </div>
