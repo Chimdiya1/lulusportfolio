@@ -1,0 +1,147 @@
+.body {
+  padding: 2rem;
+  border: 0.1px solid #d8dcff;
+  border-radius: 20px;
+  overflow-x: hidden;
+  @media (max-width: 576px) {
+    overflow-x: visible;
+  }
+  @media (max-width: 900px) {
+    padding: 1rem;
+  }
+  @media (max-width: 576px) {
+    padding: 0rem;
+    border: none;
+  }
+  .about {
+    font-size: 26px;
+    line-height: 42px;
+    font-weight: 300;
+    text-align: justify;
+    @media (max-width: 900px) {
+      font-size: 20px;
+    }
+    @media (max-width: 576px) {
+      font-size: 11px;
+      line-height: 19px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    margin: 2rem 0;
+    @media (max-width: 900px) {
+      font-size: 20px;
+    }
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
+  }
+  h4 {
+    font-size: 28px;
+    margin: 1rem 0;
+    @media (max-width: 900px) {
+      font-size: 20px;
+    }
+    @media (max-width: 576px) {
+      font-size: 14px;
+    }
+  }
+  .skills-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .skill {
+      background-color: #abcdef20;
+      margin: 0 1rem 1rem 0;
+      border-radius: 27px;
+      padding: 1rem 1.5rem;
+      font-size: 25px;
+      color: #131313;
+      font-weight: lighter;
+      @media (max-width: 900px) {
+        font-size: 20px;
+      }
+      @media (max-width: 576px) {
+        font-size: 9px;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+        margin: 0 0.5rem 0.5rem 0;
+      }
+    }
+  }
+  .tools-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      // background-color: red;
+    }
+    .tool {
+      background-color: #abcdef20;
+      margin: 0 1rem 1rem 0;
+      border-radius: 100px;
+      padding: 1rem 1.5rem;
+      @media (max-width: 576px) {
+        padding: 0.5rem 1rem;
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .my-designs {
+    margin: 2rem -2rem;
+    background-color: #0074e8;
+    // background-color: #abcdef19;
+    padding: 1rem 5% 3rem;
+    @media (max-width: 1100px) {
+    }
+    @media (max-width: 768px) {
+      margin: 2rem -2.8rem;
+      padding: 1rem 10% 3rem;
+    }
+    .design-cards-container {
+      display: flex;
+      margin-bottom: 2rem;
+      .design-card {
+        font-size: 25px;
+        margin-right: 5%;
+        @media (max-width: 1100px) {
+          font-size: 20px;
+        }
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .works {
+    ul li {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      @media (max-width: 900px) {
+        font-size: 20px;
+      }
+      @media (max-width: 576px) {
+        font-size: 14px;
+      }
+      img {
+        max-width: 50px;
+      }
+      a {
+        margin-left: 0.5rem;
+        color: #3f50e8;
+      }
+    }
+  }
+}

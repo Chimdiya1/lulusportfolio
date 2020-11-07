@@ -1,0 +1,9 @@
+.App {
+  padding: 3rem 14% 5rem;
+  @media (max-width: 1100px) {
+    padding: 3rem 12% 5rem;
+  }
+  @media (max-width: 768px) {
+    padding: 1rem 8% 5rem;
+  }
+}

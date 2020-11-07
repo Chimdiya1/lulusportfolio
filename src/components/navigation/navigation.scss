@@ -1,0 +1,15 @@
+.navigation {
+  margin: 3rem 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  @media (max-width: 900px) {
+    font-size: 20px;
+  }
+  @media (max-width: 576px) {
+    font-size: 11px;
+    margin: 1.5rem 0;
+  }
+}
