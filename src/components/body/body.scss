@@ -14,7 +14,7 @@
     border: none;
   }
   .about {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 42px;
     font-weight: 300;
     text-align: justify;
@@ -97,8 +97,8 @@
 
   .my-designs {
     margin: 2rem -2rem;
-    background-color: #0074e8;
-    // background-color: #abcdef19;
+    // background-color: #0074e8;
+    background-color: #abcdef19;
     padding: 1rem 5% 3rem;
     @media (max-width: 1100px) {
     }
@@ -141,6 +141,120 @@
       a {
         margin-left: 0.5rem;
         color: #3f50e8;
+      }
+    }
+  }
+
+  .opensource {
+    p {
+      font-size: 26px;
+      line-height: 40px;
+      font-weight: lighter;
+      margin-bottom: 2rem;
+      @media (max-width: 900px) {
+        font-size: 20px;
+      }
+      @media (max-width: 576px) {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 1rem;
+      }
+    }
+    ul {
+      li {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 0.5rem;
+        font-size: 26px;
+        @media (max-width: 900px) {
+          font-size: 20px;
+        }
+        @media (max-width: 576px) {
+          font-size: 16px;
+          // line-height: 20px;
+        }
+        &:nth-of-type(2) {
+          div {
+            margin-left: 2.15rem;
+          }
+        }
+        div {
+          display: flex;
+          flex-direction: column;
+          line-height: 36px;
+          color: #3f50e8;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+  .contact {
+    margin: 2rem -2rem;
+    // background-color: #0074e8;
+    background-color: #abcdef19;
+    padding: 1rem 5% 3rem;
+    p {
+      font-size: 28px;
+      line-height: 40px;
+      font-weight: lighter;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      input[type='text'] {
+        width: 300px;
+        height: 60px;
+        border: 0.5px solid #717ffa;
+        padding: 1rem;
+        &::placeholder {
+          color: #3f50e8;
+          font-family: 'Comfortaa', cursive;
+        }
+        margin-bottom: 1rem;
+        &:nth-of-type(1) {
+          margin-top: 1rem;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+        &:nth-of-type(2) {
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+      }
+      input[type='submit'] {
+        background-color: #3f50e8;
+        width: 150px;
+        height: 42px;
+        font-family: 'Comfortaa', cursive;
+        border: 0.5px solid #717ffa;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 20px;
+        color: white;
+      }
+    }
+    h4 {
+      font-weight: lighter;
+    }
+    ul {
+      li {
+        display: flex;
+        font-family: 'Comfortaa', cursive;
+        align-items: center;
+        &:nth-of-type(1) {
+          a {
+            margin-left: 3rem;
+          }
+        }
+        &:nth-of-type(3) {
+          a {
+            margin-left: 1.8rem;
+          }
+        }
+        a {
+          color: #3f50e8;
+          margin-left: 1rem;
+        }
       }
     }
   }

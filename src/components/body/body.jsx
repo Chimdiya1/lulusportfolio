@@ -90,7 +90,7 @@ const Body = () => {
                 <h3>
                     MY OPEN SOURCE CONTRIBUTION
                 </h3>
-                <p>
+                <p className="confortaa">
                     I create content as a Lifestyle Blogger and Technical Writer.
                     I enjoy writing articles for people to read and I hope you enjoy reading them too.
                 </p>
@@ -114,7 +114,7 @@ const Body = () => {
                 <h3>
                     GET IN TOUCH WITH ME
                 </h3>
-                <p>
+                <p className="comfortaa">
                     I send nice reads to my online community. Subscribe to get them in your inbox.
                 </p>
                 <form action="">
@@ -126,7 +126,9 @@ const Body = () => {
                     Find me on Social media
                 </h4>
                 <ul>
-                    <li><img src={behance} alt="linkedIn-link"/> Behance:{' '} <a href="/"> behance.net/luludesigna</a></li>
+                    <li><img src={mail} alt="mail -link"/> Mail:{' '} <a href="/"> mail@luludesigna.me</a></li>
+                    <li><img src={linkedin} alt="linkedIn -link"/> LinkedIn:{' '} <a href="/"> linkedin.com/in/oluchi-nwenyi</a></li>
+                    <li><img src={twitter} alt="twitter -link"/> Twitter:{' '} <a href="/"> twitter.com/lulunwenyi</a></li>
                 </ul>
             </div>
         </div>

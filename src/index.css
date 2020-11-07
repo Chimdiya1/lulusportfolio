@@ -28,6 +28,12 @@ a {
   font-family: 'Comfortaa', cursive;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
 h1,
 h2,
 h3,

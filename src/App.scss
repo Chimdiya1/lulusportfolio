@@ -1,5 +1,7 @@
 .App {
-  padding: 3rem 14% 5rem;
+  // padding: 3rem 14% 5rem;
+  overflow-x: hidden;
+  padding: 3rem 20% 5rem;
   @media (max-width: 1100px) {
     padding: 3rem 12% 5rem;
   }
