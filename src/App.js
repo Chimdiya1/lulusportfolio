@@ -10,6 +10,9 @@ function App() {
       <Header />
       <Navigation />
       <Body />
+      <div className="footer">
+        <p>&copy; 2020, Lulu Designa. All Right Reserved.</p>
+      </div>
     </div>
   );
 }

@@ -29,12 +29,12 @@ const Body = () => {
             </h3>
             <div className="skills-section nunito">
                 <span className="skill">User Research</span>
-                <span className="skill">User Experience Design</span>
                 <span className="skill">Content Writing</span>
+                <span className="skill">Web Design</span>
+                <span className="skill">User Experience Design</span>
                 <span className="skill">User Interface Design</span>
                 <span className="skill">Technical Writing</span>
                 <span className="skill">Prototyping</span>
-                <span className="skill">Web Design</span>
                 <span className="skill">Wireframing</span>
             </div>
             <h3>
